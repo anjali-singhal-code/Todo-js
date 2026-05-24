@@ -1,0 +1,117 @@
+#outer-container {
+  background: linear-gradient(145deg,#81ecff, #fff09a);
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+  margin-top: -70px;
+  box-shadow: 1px 1px 1px 1px #adadad;
+  border: 1px solid #000;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+
+}
+
+#heading-container {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-heading {
+  color :#1A535C;
+  font-size: 2.1rem;
+}
+
+#todo-logo {
+  height: 50px;
+  margin: 0 0 10px;
+}
+
+#input-container {
+  height: 40px;
+  width: 90%;
+  margin: 0 auto 65px;
+  display: flex;
+  gap: 10px;
+}
+
+#text-input {
+  outline: none;
+  font-size: 1rem;
+  height: 40px;
+  border: none;
+  flex: 1;
+}
+
+#date-input {
+  cursor: pointer;
+  outline: none;
+  font-size: 0.9rem;
+  height: 40px;
+  border: none;
+}
+
+#button-add {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  height: 40px;
+  border: none;
+  width: 20%;
+  border-radius: 30px;
+  background-color: #FF9671;
+}
+
+.delete-btn {
+  margin-top: -5px;
+  cursor: pointer;
+  background-color: #74C69D;
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+#text {
+  margin-right: 10px;
+  overflow: hidden;
+  flex : 1;
+}
+
+#date {
+  font-size: 1rem;
+  margin: 2px 30px 0 0 ;
+}
+
+#lists {
+  margin: 40px auto;
+  font-size: 1.1rem;
+  display: flex;
+  height: 30px;
+  width: 86%;
+}
+
+#text::before {
+  content: '◼';
+  margin-right: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(200, 199, 199);
+}
+
+.edit-button span {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
