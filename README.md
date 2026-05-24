@@ -1,6 +1,6 @@
 # 📝 Todo JS App
 
-🌐 Live Demo: (Add your live link here)
+🌐 Live Demo: https://anjali-singhal-code.github.io/Todo-js/
 
 A responsive and interactive Todo Application built using HTML, CSS, and JavaScript. This project helps users manage daily tasks with features like adding, editing, deleting, and marking tasks as completed.
 
